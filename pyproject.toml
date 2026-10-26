@@ -6,11 +6,17 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "edge-tts>=7.3.1",
+    "faster-whisper>=1.2.1",
+    "google-genai>=2.33.0",
     "numpy>=2.4.6",
+    "ollama>=0.6.3",
+    "onnxruntime>=1.31.0",
+    "openwakeword>=0.6.0",
     "pyaudio>=0.2.14",
     "python-dotenv>=1.2.4",
     "requests>=2.34.2",
     "rich>=15.0.0",
+    "silero-vad>=6.2.3",
     "sounddevice>=0.5.6",
     "soundfile>=0.14.0",
     "speechrecognition>=3.17.0",
